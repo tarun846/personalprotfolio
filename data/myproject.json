@@ -8,23 +8,23 @@
     "techstack": [
       {
         "title": "HTML",
-        "color": "bg-protfolio-green"
+        "color": "protfolio-green"
       },
       {
         "title": "CSS",
-        "color": "bg-protfolio-yellow"
+        "color": "protfolio-yellow"
       },
       {
         "title": "JavaScript",
-        "color": "bg-protfolio-blue"
+        "color": "protfolio-blue"
       },
       {
         "title": "React JS",
-        "color": "bg-protfolio-purple"
+        "color": "protfolio-purple"
       },
       {
         "title": "TypeScript",
-        "color": "bg-protfolio-seagreen"
+        "color": "protfolio-seagreen"
       }
     ]
   },

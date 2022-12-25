@@ -70,7 +70,7 @@ function Main() {
                 </div>
 
                 <div className="mt-8">
-                  <h2 className="bg-protfolio-seagreen">My Skillset</h2>
+                  <h2 className="">My Skillset</h2>
                   <div className="flex flex-wrap mt-8">{myval}</div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function Main() {
                             return (
                               <h3
                                 key={i}
-                                className={`mr-8  text-sm rounded-lg leading-4 p-1 mb-1 ${e.color} `}
+                                className={`mr-8  text-sm rounded-lg leading-4 p-1 mb-1 bg-${e.color} `}
                               >
                                 {e.title}
                               </h3>
@@ -125,13 +125,3 @@ function Main() {
 }
 
 export default Main;
-
-// rgb(210,234,188) , green
-
-// rgb(254,245,154) . yellow
-
-//rgb(173,237,252) . . blue
-
-// rgb(225,213,249) purple
-// rgb(207,231,226) sea green
-// rgb(255,206,211) pink
