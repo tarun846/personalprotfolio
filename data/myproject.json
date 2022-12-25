@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "title": "bloggingy",
+    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
+    "time": "Oct 28, 2022",
+    "img": "/public/Herobackground.jpeg",
+    "techstack": [
+      {
+        "title": "HTML",
+        "color": "bg-protfolio-green"
+      },
+      {
+        "title": "CSS",
+        "color": "bg-protfolio-yellow"
+      },
+      {
+        "title": "JavaScript",
+        "color": "bg-protfolio-blue"
+      },
+      {
+        "title": "React JS",
+        "color": "bg-protfolio-purple"
+      },
+      {
+        "title": "TypeScript",
+        "color": "bg-protfolio-seagreen"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "blogging",
+    "img": "/public/Herobackground.jpeg",
+    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
+    "time": "Oct 28, 2022",
+    "techstack": [
+      {
+        "title": "HTML",
+        "color": "protfolio-green"
+      },
+      {
+        "title": "CSS",
+        "color": "protfolio-yellow"
+      },
+      {
+        "title": "JavaScript",
+        "color": "protfolio-blue"
+      },
+      {
+        "title": "React JS",
+        "color": "protfolio-purple"
+      },
+      {
+        "title": "TypeScript",
+        "color": "protfolio-seagreen"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "bloggin",
+    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
+    "time": "Oct 28, 2022",
+    "img": "/public/Herobackground.jpeg",
+    "techstack": [
+      {
+        "title": "HTML",
+        "color": "protfolio-green"
+      },
+      {
+        "title": "CSS",
+        "color": "protfolio-yellow"
+      },
+      {
+        "title": "JavaScript",
+        "color": "protfolio-blue"
+      },
+      {
+        "title": "React JS",
+        "color": "protfolio-purple"
+      },
+      {
+        "title": "TypeScript",
+        "color": "protfolio-seagreen"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "bloggi",
+    "img": "/public/Herobackground.jpeg",
+    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
+    "time": "Oct 28, 2022",
+    "techstack": [
+      {
+        "title": "HTML",
+        "color": "protfolio-green"
+      },
+      {
+        "title": "CSS",
+        "color": "protfolio-yellow"
+      },
+      {
+        "title": "JavaScript",
+        "color": "protfolio-blue"
+      },
+      {
+        "title": "React JS",
+        "color": "protfolio-purple"
+      },
+      {
+        "title": "TypeScript",
+        "color": "protfolio-seagreen"
+      }
+    ]
+  }
+]
