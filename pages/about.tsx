@@ -36,7 +36,7 @@ function About() {
             </span>
           </h2>
           <h2 className="mb-8">
-            I'm a self taught{" "}
+            I&apos;m a self taught{" "}
             <span className="rounded-lg bg-protfolio-yellow ">
               {" "}
               javascript developer
@@ -48,8 +48,8 @@ function About() {
             </span>{" "}
           </h2>
           <h2 className="mb-8">
-            I've built countless side projects using my technical skills and
-            have gained the{" "}
+            I`&apos;`ve built countless side projects using my technical skills
+            and have gained the{" "}
             <span className="mr-2 rounded-lg bg-protfolio-seagreen">
               {" "}
               magical powers of javascript{" "}

@@ -54,7 +54,7 @@ function Footer() {
 
       <div className="flex">
         <div className="">
-          <a href={twitter_Link} target="_blank">
+          <a href={twitter_Link} target="_blank" rel="noreferrer">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -70,7 +70,7 @@ function Footer() {
         </div>
         {/*  */}
         <div className="ml-4">
-          <a href={github_Link} target="_blank">
+          <a href={github_Link} target="_blank" rel="noreferrer">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -86,7 +86,7 @@ function Footer() {
         </div>
         {/*  */}
         <div className="ml-4">
-          <a href={linkedin_Link} target="_blank">
+          <a href={linkedin_Link} target="_blank" rel="noreferrer">
             <svg
               stroke="currentColor"
               fill="currentColor"

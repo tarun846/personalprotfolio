@@ -47,7 +47,7 @@ function Main() {
               <div className="mt-16 mb-4">
                 <h2>Hello World 👋 </h2>
                 <p>
-                  I'm <span className="font-bold">Tarun Kumar</span> , a
+                  I&apos;m <span className="font-bold">Tarun Kumar</span> , a
                   <span className="bg-protfolio-yellow">
                     {" "}
                     JavaScript developer
@@ -100,7 +100,7 @@ function Main() {
                       style={!e.disabled ? {} : { pointerEvents: "none" }}
                       key={e.id}
                     >
-                      <a href={e.link} target="_blank">
+                      <a href={e.link} target="_blank" rel="noreferrer">
                         <div className="">
                           <Image
                             alt={"asdfvbn"}
