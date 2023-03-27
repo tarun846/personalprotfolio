@@ -7,12 +7,13 @@ import protfolioimage from "../../public/protfolio.jpeg";
 import skilldata from "../../data/skilldata.json";
 import myproject from "../../data/myproject.json";
 import Footer from "../Footer";
+import { github_Link, twitter_Link } from "../../constants";
 function Main() {
   let myval = skilldata.map((e, i) => {
     return (
       <h3
         key={i}
-        className="mr-8 bg-protfolio-green text-sm rounded-lg leading-4 p-1 mb-1"
+        className="p-1 mb-1 mr-8 text-sm leading-4 rounded-lg bg-protfolio-green"
       >
         {" "}
         {e}{" "}
@@ -23,14 +24,15 @@ function Main() {
   return (
     <>
       <Navbar />
-
-      <div className=" ">
+      <div className="bg-protfolio-purple"></div>
+      <div className="bg-protfolio-seagreen"></div>
+      <div className="">
         <div className="max-w-[1200px] my-0 mx-auto z-0 ">
           <div className="relative shadow-xl ">
             <Image
               src={Herobackground}
               alt={""}
-              className="min-h-[30vh] w-full object-cover rounded-xl shadow-lg"
+              className="min-h-[30vh] w-full object-cover shadow-lg lg:rounded-xl "
             />
             <Image
               className="rounded-full  w-28 h-28 absolute  bottom-[-40px] left-[50%] right-[50%] translate-x-[-50%]  mt-8  shadow-xl "
@@ -38,11 +40,11 @@ function Main() {
               alt="Next.js Logo"
             />
           </div>
-          <div className="max-w-[900px] my-0 mx-auto ">
+          <div className="max-w-[900px] my-0 mx-auto p-4 ">
             <div className="mt-16">
-              <h1 className="text-center font-bold ">Tarun Kumar</h1>
+              <h1 className="font-bold text-center ">Tarun Kumar</h1>
 
-              <div className="mt-16">
+              <div className="mt-16 mb-4">
                 <h2>Hello World 👋 </h2>
                 <p>
                   I'm <span className="font-bold">Tarun Kumar</span> , a
@@ -56,17 +58,26 @@ function Main() {
                   </span>{" "}
                   . I love using my technical skills to build cool & interesting
                   things. In my spare time, I work on projects related to
-                  <span className="bg-protfolio-blue ml-1">
+                  <span className="ml-1 bg-protfolio-blue">
                     {" "}
                     JavaScript,{" "}
                   </span>{" "}
-                  <span className="bg-protfolio-blue ml-1 "> React, </span>
-                  <span className="bg-protfolio-blue ml-1 ">TypeScript,</span>
+                  <span className="ml-1 bg-protfolio-blue "> React, </span>
+                  <span className="ml-1 bg-protfolio-blue ">TypeScript,</span>
                   etc
                 </p>
                 <div className="mt-8 ">
-                  You can find me on Twitter and GitHub — check out my bio for
-                  more info. View Resume
+                  You can find me on <a href={twitter_Link}>Twitter</a> and{" "}
+                  <a href={github_Link}> GitHub</a> — check out my bio for more
+                  info.{" "}
+                  <a
+                    href="https://drive.google.com/file/d/1-RtHTX_cPCoE4AwxjK9sxOPSa7hMsrFS/view"
+                    className="bg-protfolio-seagreen rounded-lg "
+                    attributes-list-download
+                  >
+                    {" "}
+                    View Resume
+                  </a>
                 </div>
 
                 <div className="mt-8">
@@ -79,11 +90,17 @@ function Main() {
             <div className="mt-16">
               <h2 className="mb-4">My Projects </h2>
               <hr className="border-1 border-t-black" />
-              <div className="grid grid-cols-2 gap-4 mt-8 ">
+              <div className="grid gap-4 p-2 mt-8 lg:grid-cols-2 ">
                 {myproject.map((e) => {
                   return (
-                    <div key={e.id}>
-                      <Link href={`/project/${e.title}`}>
+                    <div
+                      className={
+                        e.disabled ? "cursor-pointer" : "cursor-default"
+                      }
+                      style={!e.disabled ? {} : { pointerEvents: "none" }}
+                      key={e.id}
+                    >
+                      <a href={e.link} target="_blank">
                         <div className="">
                           <Image
                             alt={"asdfvbn"}
@@ -93,7 +110,7 @@ function Main() {
                             height={100}
                           />
                         </div>
-                        <div className="w-full min-h-max bg-black"></div>
+                        <div className="w-full bg-black min-h-max"></div>
                         <h1 className="pt-2">{e.title}</h1>
                         <p className="pt-2">{e.description}</p>
                         <h3 className="pt-2">{e.time}</h3>
@@ -109,8 +126,7 @@ function Main() {
                             );
                           })}
                         </div>
-                        .{" "}
-                      </Link>
+                      </a>
                     </div>
                   );
                 })}

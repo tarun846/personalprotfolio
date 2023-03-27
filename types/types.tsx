@@ -16,3 +16,8 @@ interface contextinterface {
   locale: undefined;
   defaultLocale: undefined;
 }
+
+
+export interface Iparma {
+  projid: string;
+}

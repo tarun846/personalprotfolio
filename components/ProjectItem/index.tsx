@@ -1,6 +1,7 @@
 import React from "react";
+import { myprojectdata } from "../../types/types";
 
-function ProjectItem() {
+function ProjectItem({ projectdata }: { projectdata: myprojectdata }) {
   return <div>ProjectItem</div>;
 }
 

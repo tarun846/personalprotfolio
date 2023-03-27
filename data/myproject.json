@@ -1,117 +1,132 @@
 [
   {
     "id": 1,
-    "title": "bloggingy",
-    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
-    "time": "Oct 28, 2022",
+    "title": "🚑 managment",
+    "description": " This open-source project is designed for hospitals and utilizes React, TypeScript, Redux Toolkit, and Material UI technologies. Upon completion, it will serve as a useful tool for hospitals. ",
+    "time": "in progress...",
     "img": "/public/Herobackground.jpeg",
+    "link": "https://github.com/tarun846/sales-management",
     "techstack": [
       {
-        "title": "HTML",
+        "title": "React",
         "color": "protfolio-green"
       },
       {
-        "title": "CSS",
+        "title": "TypeScript",
         "color": "protfolio-yellow"
       },
       {
-        "title": "JavaScript",
+        "title": " Redux Toolkit",
         "color": "protfolio-blue"
       },
       {
-        "title": "React JS",
+        "title": "Material UI",
         "color": "protfolio-purple"
-      },
-      {
-        "title": "TypeScript",
-        "color": "protfolio-seagreen"
       }
     ]
   },
   {
     "id": 2,
-    "title": "blogging",
-    "img": "/public/Herobackground.jpeg",
-    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
-    "time": "Oct 28, 2022",
+    "title": "component library",
+    "img": "component library",
+    "description": "This project is a component library consisting of 10 components built using React and TypeScript, with more components planned for the future. The library is showcased using Storybook.",
+    "time": " completed ",
+    "link": "https://github.com/tarun846/componentlibrary",
     "techstack": [
       {
-        "title": "HTML",
+        "title": "React JS",
         "color": "protfolio-green"
       },
       {
-        "title": "CSS",
+        "title": "TypeScript",
         "color": "protfolio-yellow"
       },
       {
-        "title": "JavaScript",
+        "title": "Storybook",
         "color": "protfolio-blue"
-      },
-      {
-        "title": "React JS",
-        "color": "protfolio-purple"
-      },
-      {
-        "title": "TypeScript",
-        "color": "protfolio-seagreen"
       }
     ]
   },
   {
     "id": 3,
-    "title": "bloggin",
-    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
-    "time": "Oct 28, 2022",
+    "title": "personal protfolio",
+    "description": "This project is a personal portfolio website built using React, TypeScript, and Tailwind CSS. It showcases my skills, experience, and projects ",
+    "time": "completed",
     "img": "/public/Herobackground.jpeg",
+    "link": "https://github.com/tarun846/personalprotfolio",
     "techstack": [
       {
-        "title": "HTML",
+        "title": "Next js",
         "color": "protfolio-green"
       },
       {
-        "title": "CSS",
+        "title": "TypeScript",
         "color": "protfolio-yellow"
       },
       {
-        "title": "JavaScript",
+        "title": "Tailwind",
         "color": "protfolio-blue"
-      },
-      {
-        "title": "React JS",
-        "color": "protfolio-purple"
-      },
-      {
-        "title": "TypeScript",
-        "color": "protfolio-seagreen"
       }
     ]
   },
   {
     "id": 4,
-    "title": "bloggi",
+    "title": "Hostar clone",
+    "description": "This project is a personal portfolio website built using React, TypeScript, and Tailwind CSS. It showcases my skills, experience, and projects ",
+    "time": "completed",
     "img": "/public/Herobackground.jpeg",
-    "description": "aWobbi is a social media application built with React, Redux Toolkit, Tailwind CSS, NodeJS, MongoDb and socket.io. Auto formatted with Prettier, Linted with ESLint.",
-    "time": "Oct 28, 2022",
+    "link": "https://github.com/tarun846/new-hotstar-",
     "techstack": [
       {
-        "title": "HTML",
+        "title": "React JS",
         "color": "protfolio-green"
       },
       {
-        "title": "CSS",
+        "title": "Redux toolkit",
+        "color": "protfolio-yellow"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "TikTok clone",
+    "img": "/public/Herobackground.jpeg",
+    "description": "This project is a clone of Tiktok in this project complete desgin of the website is desgined by myself in figma and firebase is used for   authentication and database  ",
+    "time": " in progress... ",
+    "link": "https://github.com/tarun846/new-hotstar-",
+    "disabled": true,
+    "techstack": [
+      {
+        "title": "React",
+        "color": "protfolio-green"
+      },
+      {
+        "title": "Firebase",
         "color": "protfolio-yellow"
       },
       {
-        "title": "JavaScript",
-        "color": "protfolio-blue"
-      },
-      {
-        "title": "React JS",
+        "title": "Scss",
         "color": "protfolio-purple"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Shopify plugin",
+    "img": "/public/Herobackground.jpeg",
+    "description": "This project is a personal project in which i have explored the power of web components and preact combined to create a video shopify plugin",
+    "time": "coming soon...",
+    "link": "#",
+    "disabled": "true",
+    "techstack": [
+      {
+        "title": "preact",
+        "color": "protfolio-green"
       },
       {
-        "title": "TypeScript",
-        "color": "protfolio-seagreen"
+        "title": "lit",
+        "color": "protfolio-yellow"
       }
     ]
   }

@@ -1,9 +1,9 @@
 import React from "react";
 import myproject from "../../data/myproject.json";
-import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Navbar from "../../components/Navbar";
-import { myprojectdata } from "../../types/types";
+import { Iparma, myprojectdata } from "../../types/types";
 import ProjectItem from "../../components/ProjectItem";
+import Footer from "../../components/Footer";
 interface contextinterface {
   params: { projid: string };
   locales: undefined;
@@ -14,9 +14,8 @@ function Project({ projectdata }: { projectdata: myprojectdata }) {
   return (
     <div>
       <Navbar />
-      <ProjectItem />
-      <h1>{projectdata.title}</h1>
-      <p>{projectdata.description}</p>
+      <ProjectItem projectdata={projectdata} />
+      <Footer />
     </div>
   );
 }
@@ -37,12 +36,13 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: Iparma }) {
+
+
   const id = params.projid;
   const projectdata = myproject.find((e) => {
     return e.title === id;
   });
-  console.log(projectdata);
 
   return {
     props: {

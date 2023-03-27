@@ -3,11 +3,14 @@
   "CSS",
   "JavaScript",
   "React JS",
+  "webpack",
   "Next JS",
   "TypeScript",
   "Tailwind CSS",
   " Storybook ",
   " React Testing Library",
   "Jest",
-  " Unit Testing"
+  "Unit Testing",
+  "Cypress",
+  "Aws s3"
 ]
